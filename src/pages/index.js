@@ -1,3 +1,12 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+const indexPage = () => {
+  return (
+    <>
+      <h1>The Banana King</h1>
+      <h2>I am the mighty Banana King.</h2>
+    </>
+  )
+}
+
+export default indexPage
