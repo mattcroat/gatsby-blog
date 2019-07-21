@@ -1,21 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Layout from '../components/Layout'
 
 const ContactPage = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <h1>Contact</h1>
       <p>New phone. Who dis?</p>
       <p>
         {/* eslint-disable-next-line */}
         Go back <Link to="/">👈</Link>
       </p>
-      <Footer />
-    </>
+    </Layout>
   )
 }
 
