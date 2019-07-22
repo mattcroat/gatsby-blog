@@ -1,0 +1,31 @@
+.header {
+  padding: 1rem 0 3rem;
+}
+
+.title {
+  color: hsl(0, 0%, 10%);
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  color: goldenrod;
+  font-size: .9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+
+  &:hover {
+    color: hsl(0, 0%, 10%);
+  }
+}
+
+.active-nav-item {
+  color: hsl(0, 0%, 10%);
+}
