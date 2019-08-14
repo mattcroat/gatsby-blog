@@ -20,11 +20,11 @@ const BlogPage = () => {
   `)
 
   const renderPosts = () => {
-    return data.allContentfulBlogPost.edges.map(edge => {
+    return data.allContentfulBlogPost.edges.map((edge, index) => {
       const { title, slug, publishedDate } = edge.node
 
       return (
-        <ol className={blogStyles.posts}>
+        <ol key={index} className={blogStyles.posts}>
           <li className={blogStyles.post}>
             <Link to={`/blog/${slug}`}>
               <h2>{title}</h2>
